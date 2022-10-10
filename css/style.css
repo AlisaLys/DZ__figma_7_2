@@ -1,0 +1,49 @@
+/*&display=swap&subset=cyrillic-ext*/
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,900&display=swap");
+
+/* Использовать после body 
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+*/
+body{
+	font-family: "Roboto";
+	font-style: normal;
+	max-width: 1440px;
+	background: url("../img/blockone.png") 0 0 no-repeat;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.block{
+	margin: 280px 0px 0px 210px;
+}
+h1{
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 100%;
+	color: #FFFFFF;
+	margin-bottom: 48px;
+	max-width: 583px;
+}
+.knopka{
+	max-width: 211px;
+	min-height: 48px;
+	background: url("../img/buttonone.png") 100% 0 no-repeat,url("../img/buttontwo.png");
+}
+a{
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	vertical-align: middle;
+	display: inline-block;
+	padding: 13px 0px 0px 19px;
+}
